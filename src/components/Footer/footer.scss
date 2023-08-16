@@ -1,0 +1,83 @@
+.footer-section {
+  margin-top: 2rem;
+  background-color: $footer-bg;
+  padding: 9rem 0;
+  .footer-logo {
+    p {
+      font-size: 1.8rem;
+      line-height: 3rem;
+      margin-top: 5rem;
+      color: $tertiary-color;
+    }
+  }
+  .partial-font {
+    h2 {
+      font-weight: 700;
+      font-size: 2rem;
+      line-height: 2.6rem;
+      color: $black;
+      margin-bottom: 5.2rem;
+    }
+    a {
+      display: block;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      color: $tertiary-color;
+    }
+  }
+  .footer-newsletter {
+    p {
+      font-size: 1.8rem;
+    }
+    .send-email {
+      input {
+        border: none;
+        width: 25rem;
+        font-size: 1.6rem;
+        padding: 1.8rem 1rem;
+        outline: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        &::placeholder {
+          font-size: 1.8rem;
+        }
+      }
+      button {
+        background-color: $primary-color;
+        border: none;
+        outline: none;
+        padding: 1.8rem 1.8rem;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        margin: 2.4rem 0;
+      }
+    }
+    .footer-icon-wrapper {
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $white;
+      cursor: pointer;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      svg {
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+      }
+      &:hover svg {
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+      }
+    }
+  }
+}

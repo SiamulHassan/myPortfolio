@@ -1,0 +1,11 @@
+@import "./variables";
+@import "./breakpoints";
+@import "./reset";
+// components scss
+@import "../../components/Navbar/navbar";
+@import "../../components/Footer/footer";
+@import "../../components/HeroLeft/heroleft";
+@import "../../components/HeroRight/heroright";
+@import "../../components/About/abous";
+
+@import "../../components/Slider/BlogSlider";

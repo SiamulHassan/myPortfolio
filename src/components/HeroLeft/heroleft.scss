@@ -1,0 +1,58 @@
+.hero-content {
+  .hero-heading {
+    font-size: 7.2rem;
+    font-weight: 700;
+    line-height: 9rem;
+    color: $black;
+    margin-top: 14.5rem;
+    margin-bottom: 2.5rem;
+    .hero-creative {
+      background-color: $primary-color;
+      color: $white;
+      padding: 0 1.5rem;
+    }
+    .hero-solution {
+      color: $primary-color;
+      margin-left: 2rem;
+    }
+  }
+  .hero-description {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    max-width: 465px;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .hero-btns--work {
+    font-size: 2rem;
+    color: $black;
+    &:hover {
+      text-decoration: underline !important;
+    }
+  }
+  .arrow-animation {
+    svg {
+      opacity: 0;
+      transform: translate(-30px, 30px);
+      transition: all 0.3s;
+    }
+  }
+  .arrow-animation:hover {
+    svg {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+  .follow-me {
+    margin-top: 4rem;
+    span {
+      font-size: 1.8rem;
+      color: $black;
+    }
+    .follow-icons {
+      svg {
+        cursor: pointer;
+      }
+    }
+  }
+}
