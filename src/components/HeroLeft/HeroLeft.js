@@ -22,6 +22,7 @@ const HeroLeft = () => {
         className="hero-content"
         initial={topToBottom.hidden}
         whileInView={topToBottom.visible}
+        viewport={{ once: true }}
         variants={topToBottom}
         transition={{ duration: 0.3, ease: "easeIn" }}
       >

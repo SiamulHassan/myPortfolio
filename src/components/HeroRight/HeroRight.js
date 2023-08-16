@@ -21,6 +21,7 @@ const HeroRight = () => {
         className="profile-img-container"
         initial={fromLeft.initial}
         whileInView={fromLeft.visible}
+        viewport={{ once: true }}
         transition={{ duration: 0.3, ease: "easeIn" }}
       >
         <Image src={profileImg} width={400} height={400} alt="profile-img" />
